@@ -1,0 +1,24 @@
+Sorting:
+->The process of arranging the data in some logical order.
+->This logical order may be ascending or descending in case of numerical values or dictionary 
+order in case of alpha numeric values.
+
+Two types
+-Internal Sorting
+-External Sorting
+
+Bubble Sort:
+->This is very simple and easy to implement sorting technique.
+->until unless explicitly stated sorting means ascending order
+Example:
+  0 1 2 3
+A 8 4 5 1
+Logic starts with comparision of first two elements and if the lest elementis greater 
+than right, they swap their position.comparision proceeds till the end of the array.
+
+Algorithm:
+BUBBLE_SORT(A,N):A is arrayof values N no of elements.
+1.repeat for round=1,2,3,...N-1
+2.repeat for i=0,1,2,...N-1-round
+3.if A[i]>A[i+1] then swap A[i] & A[i+1]
+4.Return
